@@ -1,0 +1,32 @@
+.main {
+  text-align: center;
+  margin: 45px;
+}
+
+.main1 {
+  height: 35px;
+  width: 245px;
+  padding-left: 5px;
+  font-size: 20px;
+  margin-top: 5px;
+  /* background-color: red; */
+}
+.main2 {
+  height: 40px;
+  width: 80px;
+  margin-left: 15px;
+}
+.main3 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin-top: 15px;
+}
+
+.main4 {
+  height: 40px;
+  width: 80px;
+  margin-left: 15px;
+}

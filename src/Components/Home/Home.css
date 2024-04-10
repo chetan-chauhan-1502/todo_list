@@ -1,0 +1,109 @@
+.main {
+  width: 90vw;
+  height: 75vh;
+  margin: auto;
+  overflow: scroll;
+  padding: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  border-radius: 20px;
+  position: relative;
+}
+
+.main1 {
+  width: 80vw;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: -20px;
+
+}
+.main1 input {
+  font-size: 20px;
+  padding: 6px 20px;
+  /* outline: none; */
+  /* border: none; */
+  border-radius: 20px;
+  width: 90%;
+  text-align: start;
+  background-color: black;
+  color: white;
+}
+.main1 button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: all ease-in 0.2s;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.main1 button:hover {
+  background-color: blue;
+}
+
+/* Detal mate  */
+
+.mainDetail {
+  width: 80vw;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  /* background-color: red; */
+}
+.mainDetail h2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  text-align: start;
+  width: 70vw;
+  padding: 5px 20px;
+  margin-top: 6px;
+  text-transform: capitalize;
+  text-shadow: 0 0 10px blue, 0 0 10px blue;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+}
+.mainDetail h2:active {
+  white-space: wrap;
+  overflow: visible;
+  overflow-wrap: break-word;
+}
+
+.mainDetail button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: all ease-in 0.2s;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.mainDetail button:hover {
+  background-color: red;
+}
+.mainDetail button:active {
+  background-color: red;
+}

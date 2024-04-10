@@ -1,0 +1,13 @@
+.footer {
+  width: 100vw;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+h3 {
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 10px blue, 0 0 10px blue, 0 0 10px blue, 0 0 10px blue;
+}
